@@ -1,0 +1,92 @@
+*{margin: -2px;padding: 0; }
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.cont{
+    
+    border: crimson solid 2px ;
+    width: 1040px;
+    height: 5700px;
+   
+}
+.top{ background-color: cornsilk;position: -webkit-sticky;
+    position: sticky;
+    top: 40px; z-index: 5;
+}
+.con{margin-left: 200px;cursor: pointer;width: 70px;}
+.con:hover{width: 80px;}
+.ng{
+    padding-top: 5px;
+    position: fixed;
+    width: 1050px;
+    z-index: -1;
+
+}
+.main{
+    margin-top: 100px;
+}
+#tit{
+    width: 600px;
+    margin-left: 220px;
+}
+.product{
+    width: 270px;
+    height: 270px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    
+    margin-top: 30px;
+    border-radius:25%;
+    box-shadow: rgb(235, 126, 126) 10px 10px 10px;
+    border: black solid 3px;
+}
+.idiv{
+    border: rgb(7, 56, 131) solid 5px;
+    margin-top: 5px;
+    cursor: url(img/Halo_CursorCC.cur),pointer;
+    display: flex;
+    
+}
+.idiv:hover{
+    transition:0.2s;
+    border: rgb(253, 7, 122) double 7px;
+    box-shadow: rgb(248, 82, 248) 5px 12px 5px;
+    margin-top: 5px;
+    background-color: rgba(206, 203, 203, 0.623);
+}
+pre{
+    margin: 55px 0px 0px 40px;
+    font-size: 15px;
+}
+.bt{
+    background-color: black;
+    color: seashell;
+    border: rgb(84, 243, 70) double 7px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 200px;
+    margin-right: 35px;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+}
+.-b1{margin-left: -120px;}
+.love{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(204, 213, 240);
+}
+.love:hover{
+    background-color: rgb(39, 168, 219);
+}
+.blue{
+   width: 150px;
+    height: 30px;
+}
+.blue:focus{
+    background-color: rgb(39, 168, 219);
+
+}
+
+.-b1:hover{transition: 0.5s; background-color: rgb(226, 226, 79); color: sienna;font-size: 25px;border: black  dotted 5px; border-radius: 25%;}
+.-b2:hover{transition: 0.5s; background-color: rgba(79, 226, 91, 0.712); color: sienna;font-size: 25px;border: black  dotted 5px; border-radius: 25%;}
+.mar{position: absolute;z-index: 0;  height: fit-content;width: 200px;display: none;border:olive solid 2px ; margin-left: 833px; font-family:fantasy; color: rgb(250, 11, 11);}
+.idiv:hover >.mar{display: inline;}
